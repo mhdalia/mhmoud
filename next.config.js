@@ -5,7 +5,8 @@ const nextConfig = {
     ignoreDuringBuilds: true,
   },
   images: { unoptimized: true },
-  distDir:'dist'
+  distDir:'dist',
+  'basePath':'/mhmoud'
 };
 
 module.exports = nextConfig;
